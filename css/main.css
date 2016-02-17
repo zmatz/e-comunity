@@ -1,0 +1,21 @@
+.menu {
+	margin-left: 150px;
+}
+li {
+	display: inline;
+	padding: 10px;
+	margin: 15px;
+	font-family: OpenSans-bold;
+	font-size: 14px;
+}
+
+.ec-log {
+	height: 80px
+}
+
+.slogan {
+	margin: 100px 200px;
+	font-family: OpenSans-regular;
+}
+
+
