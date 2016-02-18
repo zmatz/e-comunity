@@ -5,17 +5,144 @@ li {
 	display: inline;
 	padding: 10px;
 	margin: 15px;
-	font-family: OpenSans-bold;
+	font-family: OpenSans-bold; /*Usar la tipografía pre-cargada para el proyecto*/
 	font-size: 14px;
 }
-
 .ec-log {
-	height: 80px
+	height: 90px
 }
-
 .slogan {
 	margin: 100px 200px;
 	font-family: OpenSans-regular;
 }
+.mv {
+	position: relative; /*cambiar la posición del contenedor para indicar al navegador a partir de donde empezar a contar*/
+	margin-top: 100px;
+}
+.logmv {
+	bottom: 55px;
+	height: 130px;
+}
+#nosotros {
+	height: 400px;
+	padding: 0px;
+	margin: 0px;
+	font-size: 80%;
+	font-family: OpenSans-Light;
+}
+#metodology {
+	height: 380px;
+	overflow: hidden; /*nuevo descubrimiento! lo que se sale del contenedor está escondido*/
+	font-family: OpenSans-Light;
+	font-size: 80%; /*Al usar % en toda una sección, no es necesario especificar un tamaño de fuente para cada elemento*/
+	background: url(../img/fondo.jpg);
+}
+.metodpic {
+	height: 400px;
+	
+}
+.mtd {
+	position: relative;
+	margin-top: 50px;
+	padding: 0px 30px;
+}
+.logomtd {
+	bottom: 60px;
+	height: 100px;
+}
+#servicios{
+	font-family: OpenSans-light;
+	font-size: 80%;
+}
+.pd-2{
+	padding: 2%;
+}
+#proyectos {
+	height: 710px;
+	font-family: OpenSans-light;
+	font-size: 65%;
+}
+.proypic {
+	height: 280px;
+}
+#equipo {
+	height: 500px;
+	font-family: OpenSans-light;
+	font-size: 65%;
+}
+.e-pic {
+	border-radius: 50%;
+	height: 250px;
+}
+.e-con {
+	height: 30px;
+	margin: 30px 5px;
+}
+#blog {
+	height: 500px;
+	font-family: OpenSans-light;
+	font-size: 70%;
+	background: url(../img/fondo2.jpg);
+}
+.blg-pic {
+	height: 200px;
+}
+.slide-l{
+    padding-top: 15%;
+    padding-left: 5%
+}
+.slide-r{
+    padding-top: 15%;
+    padding-left: 8%
+}
+.name {
+	position: absolute;
+	left: 150px;
+	padding-top: 60px;
+}
+#siguenos {
+	height: 400px;
+	font-family: OpenSans-Regular;
+}
+.abrazo {
+	width: 1200px;
+	height: 249px;
+	position: absolute;
+	margin: 6%;
+}
+.s-box {
+	display: inline-block;
+	border: 2px solid #c8c8c8;
+	height: 250px;
+	width: 300px;
+	margin: -3px;
+}
+.box-mail {
+	position: absolute;
+	margin: -3px 1px;
+}
 
+.redes {
+	height: 30px;
+}
+.tw, .in {
+	border-radius: 50%;
+	height: 30px;
+	background-color: #c8c8c8;
+} /*No pude acomodar el logo en la esquina superiror derecha, perdi mucho tiempo en eso (1hora) MAL!*/
+.mail {
+	height: 20px;
+} /*se desalineaba con los otros bloques! hice una clase solo para el y modificar márgenes, no me gustó*/
+
+
+footer {
+	height: 100px;
+}
+.e-ct {
+	float: right;
+}
+.link-L {
+	position: relative;
+	top: 40px;
+}
 

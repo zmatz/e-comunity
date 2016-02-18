@@ -60,8 +60,8 @@
 .text-white{
 	color: white;
 }
-.text-gray{
-	color: rgb(83, 88, 95);
+.text-gray-light{
+	color: rgb(192, 192, 192);
 }
 .text-blue{
  color: #192951;
